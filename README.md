@@ -4,9 +4,9 @@
 
 ### Реализованные сценарии
 
-Созданы юнит-тесты, покрывающие классы `Bun`, `Burger`, `Ingredient`, `Database`
+Созданы юнит-тесты, покрывающие классы `Bun`, `Burger`, `Ingredient`
 
-Процент покрытия 100% (отчет: `htmlcov/index.html`)
+Процент покрытия 96% (отчет: `htmlcov/index.html`)
 
 ### Структура проекта
 
@@ -15,11 +15,4 @@
 
 ### Запуск автотестов
 
-**Установка зависимостей**
-
-> `$ pip install -r requirements.txt`
-
-**Запуск автотестов и создание HTML-отчета о покрытии**
-
->  `$ pytest --cov=praktikum --cov-report=html`
-# Diplom__1
+pytest --cov --cov-report=html
